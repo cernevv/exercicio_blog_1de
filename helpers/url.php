@@ -1,6 +1,7 @@
 <?php
 
-// Constrói a URL base do site combinado o protocolo,
-// nome do servidor, diretório atual e barra final
+// Constrói a URL base do site combinando o protocolo,
+// nome do servidor, diretório atual e barra final.
 
-$BASE_URL = "https://".$_SERVER['SERVER_NAME'] .dirname($_SERVER["REQUEST_URI"].'?').'/';
+$BASE_URL = "http://" .$_SERVER['SERVER_NAME']
+.dirname($_SERVER["REQUEST_URI"].'?').'';
